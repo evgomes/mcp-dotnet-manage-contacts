@@ -7,7 +7,6 @@ namespace ManageContacts.McpServer.Tools;
 public class ContactTools
 {
     private static readonly List<Contact> _contacts = new();
-    private static readonly object _sync = new();
 
     public record Contact(string FullName, string Email);
 
